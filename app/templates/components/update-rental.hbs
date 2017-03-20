@@ -4,32 +4,32 @@
     <form>
       <div class="form-group">
         <label for="owner">Owner</label>
-        {{input value=owner id="owner" placeholder=rental.owner}}
+        {{input value=owner id="owner" class="form-control" placeholder=rental.owner}}
       </div>
 
       <div class="form-group">
         <label for="type">Type</label>
-        {{input value=type id="type" placeholder=rental.type}}
+        {{input value=type id="type" class="form-control" placeholder=rental.type}}
       </div>
 
       <div class="form-group">
         <label for="city">City</label>
-        {{input value=city id="city" placeholder=rental.city}}
+        {{input value=city id="city" class="form-control" placeholder=rental.city}}
       </div>
 
       <div class="form-group">
         <label for="bedrooms">Number of Bedrooms</label>
-        {{input value=bedrooms id="bedrooms" placeholder=rental.bedrooms}}
+        {{input value=bedrooms id="bedrooms" class="form-control" placeholder=rental.bedrooms}}
       </div>
 
       <div class="form-group">
         <label for="image">Image URL</label>
-        {{input value=image id="image" placeholder=rental.image}}
+        {{input value=image id="image" class="form-control" placeholder=rental.image}}
       </div>
 
-      <button {{action 'update' rental}}>Save</button>
+      <button class="btn btn-info" {{action 'update' rental}}>Save</button>
     </form>
   </div>
 {{else}}
-  <button {{action 'updateRentalForm'}}>Update</button>
+  <button class= "btn btn-info" {{action 'updateRentalForm'}}>Update</button>
 {{/if}}
