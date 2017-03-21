@@ -1,18 +1,26 @@
 body {
   line-height: 2em;
+  background-color: #70bbe0;
+  padding-top: 5%;
 }
 
+header a {
+  margin-right: 2%;
+}
 ul {
-  padding-left: none;
+  padding: 0;
 }
 
 li {
   list-style: none;
   padding-left: none;
 }
+#index-well {
+  background-color: #d0edef;
+}
 
 #btn-show {
-  margin-left: 2%;
+  margin-left: 1%;
 }
 
 .form-control {
