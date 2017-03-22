@@ -1,5 +1,15 @@
 {
   "name": "super-rentals",
-  "dependencies": {
-  }
+  "dependencies": {},
+  "homepage": "https://github.com/Evan-Alexander/ember-super-rentals1",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
