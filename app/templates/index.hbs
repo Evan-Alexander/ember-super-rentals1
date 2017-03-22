@@ -12,4 +12,13 @@
   </ul>
 
   {{new-rental saveRental2="saveRental3"}}
+
+  <h2>Reviews</h2>
+
+  <ul>
+    {{#each model.reviews as |review|}}
+    <li>{{review.rating}} - {{review.content}} - by {{review.author}}</li>
+    {{/each}}
+  </ul>
+
 </div>
